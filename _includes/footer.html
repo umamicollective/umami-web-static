@@ -1,8 +1,8 @@
 <!-- Footer -->
 <footer id="footer">
 	<section>
-		<h2>Who We Are</h2>
-		<p>We are a distributed team of all-senior consultants and developers. We have delivered projects for large agencies, world class retail brands and industry leaders. We work with open web and mobile technologies.</p>
+		<h2>Hello</h2>
+		<p>{{ site.description }}</p>
 	</section>
 	<section>
 		<h2>Find Us</h2>
@@ -12,13 +12,13 @@
 			<dt>Phone</dt>
 			<dd><a href="tel:+16503535268" title="Call Us">+1 (650) 353-5268</a></dd>
 			<dt>Email</dt>
-			<dd><a href="hello@umamicollective.com">hello@umamicollective.com</a></dd>
+			<dd><a href="{{ site.email }}">{{ site.email }}</a></dd>
 		</dl>
 		<ul class="icons">
-			<li><a href="https://twitter.com/umamicollective" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
-			<li><a href="https://www.facebook.com/umamicollective" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+			<li><a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+			<li><a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
 			<!-- <li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li> -->
-			<li><a href="https://github.com/umamicollective" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+			<li><a href="https://github.com/{{ site.github_username }}" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
 			<!-- <li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li> -->
 		</ul>
 	</section>

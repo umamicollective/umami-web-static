@@ -8,7 +8,11 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
+		<meta name="description" content="{{ page.description | default: site.description }}">
+		<meta property="og:title" content="{{ page.title }}" />
+		<meta property="og:image" content="{{ site.url }}{{ page.image | default: site.image }}" />
+		<meta property="og:description" content="{{ page.description | default: site.description }}" />
+</head>
 	<body>
 
 		<!-- Wrapper -->
@@ -26,7 +30,7 @@
 						<ul>
 							<li><a href="#intro" class="active">Introduction</a></li>
 							<li><a href="#what">What we do</a></li>
-							<li><a href="#clients">Our Clients</a></li>
+							<li><a href="#clients">Our clients</a></li>
 							<li><a href="#contact">Contact us</a></li>
 						</ul>
 					</nav>
