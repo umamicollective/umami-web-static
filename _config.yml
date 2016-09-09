@@ -29,3 +29,6 @@ github_username:  umamicollective
 # Build settings
 markdown: kramdown
 theme: minima
+exclude:
+  - "*.sublime*"
+  - "Gemfile*"
