@@ -22,9 +22,9 @@ description: > # this means to ignore newlines until "baseurl:"
 image: "/images/umami-collective-sq.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://umamicollective.com" # the base hostname & protocol for your site
-twitter_username: umamicollective
-facebook_username: umamicollective
-github_username:  umamicollective
+twitter_username: blank
+facebook_username: blank
+github_username:  blank
 
 # Build settings
 markdown: kramdown
