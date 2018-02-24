@@ -17,7 +17,12 @@
 		{% include googleanalytics.html %}
 </head>
 	<body>
-
+		<div id="cookie-message" data-cookie-expiry="60">
+		    <p>
+		        {{ site.title }} uses cookies to ensure we give you the best experience on our website.
+		        <a href="http://www.allaboutcookies.org/" rel="nofollow">Find out more about cookies</a>
+		    </p>
+		</div>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -56,6 +61,7 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/cookie-message.js"></script>
 			<script src="assets/js/main.js"></script>
 
 	</body>
